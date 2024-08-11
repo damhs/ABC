@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar-brand {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ff007a; /* ABC 로고의 색상 */
+}
+
+/* 지갑 주소와 연결 버튼 스타일링 */
+.wallet-address {
+  background-color: #eef2f5;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.connect-wallet {
+  background-color: #ff007a;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.connect-wallet:hover {
+  background-color: #e60073;
+}
